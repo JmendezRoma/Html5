@@ -103,25 +103,25 @@ CSS//
 table{
     border-collapse: collapse;
     border: solid 1px black ;
-    width: 50%;
-    text-align:center ;
-    margin: 300px;
-    padding:150px;
+    width: 50%; <br>
+    text-align:center ;<br>
+    margin: 300px;<br>
+    padding:150px;<br>
 }
 
-tr td:hover{
-    background-color:maroon;
-    border: solid 2px black;
+tr td:hover{<br>
+    background-color:maroon; <br>
+    border: solid 2px black; <br>
 }
-body{
-    background-color:black;
+body {<br>
+    background-color:black; <br>
 }
-.fondo{
-    background-image: url("fondo.jpg");
-    width: 1000px;
-    height: 1000px;
-    background-repeat: no-repeat; 
-    background-size: cover;
-    background-position: 100px;
-    background-attachment: scroll;
+.fondo{ <br>
+    background-image: url("fondo.jpg");<br>
+    width: 1000px;<br>
+    height: 1000px;<br>
+    background-repeat: no-repeat; <br>
+    background-size: cover;<br>
+    background-position: 100px;<br>
+    background-attachment: scroll;<br>
 }
