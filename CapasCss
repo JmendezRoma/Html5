@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>ejercicio14</title>
+    <link href="hojadeEstilo.css" rel="Stylesheet" type="text/css"/>
+</head>
+<body>
+    <div id="capa1">
+        capa1
+    </div>
+    <div id="capa2">
+        capa2
+    </div>
+    <div id="capa3">
+        capa3
+    </div>
+    <div id="capa4">
+        capa4
+    </div>
+    <div id="capa5">
+        capa5
+    </div>
+    <div id="capa6">
+        capa6
+    </div>
+    <div id="capa7">
+        capa7
+    </div>
+    <div id="capa8">
+        capa8
+    </div>
+    <div id="capa9">
+        capa9
+    </div>
+</body>
+</html>
+
+
+CSS
+
+@charset "UTF-8";
+
+*{margin:0;padding:0;border:0;box-sizing:border-box;overflow: hidden;}
+
+
+#capa1{
+    background-color:yellow ;
+    height: 25vh;
+    width: 25vw;
+    float: left ;
+}
+#capa2{
+    background-color:magenta ;
+    float: left ;
+    width: 75vw;
+    height: 25vh;
+}
+#capa3{
+    background-color:blue ;
+    float: left;
+    width: 50vw;
+    height: 50vh;
+}
+#capa4{
+    background-color:green ;
+    height: 50vh;
+    width: 25vw;
+    float:left;
+
+}
+#capa5{
+    background-color:black ;
+    height: 50vh;
+    width: 25vw;
+    float:left;
+    color: aliceblue;
+}
+#capa6{
+    background-color:lightskyblue;
+    height: 25vh;
+    width: 25vw;
+    float:left;
+}
+#capa7{
+    background-colOR:orange ;
+    height: 25vh;
+    width: 25vw;
+    float:left;
+}
+#capa8{
+    background-color:cyan ;
+    height: 25vh;
+    width: 25vw;
+    float:left;
+}
+#capa9{
+    background-color:grey ;
+    height: 25vh;
+    width: 25vw;
+    float:left;
+}
